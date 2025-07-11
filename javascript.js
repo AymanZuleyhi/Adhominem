@@ -5,7 +5,7 @@ const toast = document.querySelector(".toast");
 const content = document.querySelector(".content");
 
 const getProducts = async () => {
-  const url = "https://adhominem-server.onrender.com";
+  const url = "https://adhominem-server.onrender.com/products";
 
   try {
     const { data } = await axios.get(url);
